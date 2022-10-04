@@ -8,12 +8,11 @@
 
 knapsack_dynamic <- function(x, W){
 
-
   if(!is.data.frame(x) || !is.numeric(W)|| as.numeric(W)<0){
     stop("The function is expecting Data Frame and Positive Numeric Value only !!!!")
   }
 
-  if(!("v" %in% colnames(x)) || !("w" %in% colnames(x)) || !length(colnames(x))){
+  if(!("v" %in% colnames(x)) || !("w" %in% colnames(x)) || !(length(colnames(x))==2)){
     stop("The data frame is expected to have two columns only (v and w)!!!!")
   }
 
@@ -66,3 +65,4 @@ knapsack_dynamic <- function(x, W){
   return(result_list)
 
 }
+

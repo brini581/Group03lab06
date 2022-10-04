@@ -13,7 +13,7 @@ greedy_knapsack <- function (x,W){
     stop("The function is expecting Data Frame and Numeric Value only !!!!")
   }
 
-  if(!("v" %in% colnames(x)) || !("w" %in% colnames(x)) || !length(colnames(x))){
+  if(!("v" %in% colnames(x)) || !("w" %in% colnames(x)) || !(length(colnames(x))==2)){
     stop("The data frame is expected to have two columns only (v and w)!!!!")
   }
 
