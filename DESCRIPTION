@@ -1,9 +1,9 @@
 Package: Group03lab06
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: solve knapsack problem
+Version: 1.0.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(person("Bright David", "NIYIBIZI", email = "brini581@student.liu.se", role = c("aut", "cre")),
+    person("Anna Basil","Jose", email = "annjo768@student.liu.se", role = c("aut", "ctb")))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
