@@ -12,8 +12,8 @@ brute_force_knapsack(x, W)
 \item{W}{Weight of the knapsack}
 }
 \value{
-Returns the maximum value whose weight is lower than W
+Returns the maximum value whose weight is lower than W and the elements
 }
 \description{
-An approach to the knapsack problem using brute force
+An approach to solve the knapsack problem using brute force
 }
