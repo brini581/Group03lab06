@@ -1,4 +1,5 @@
-#' Dynamic programming function that solves Knapsack problem
+#' @title Computes the knapsack problem
+#' @description An approach to solve the knapsack problem using dynamic programming
 #' @param x A Data Frame with two variables(x and w)
 #' @param W The Total weight
 #' @return The Value and the elements

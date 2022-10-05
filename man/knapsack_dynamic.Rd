@@ -2,7 +2,7 @@
 % Please edit documentation in R/DynamicFunction.R
 \name{knapsack_dynamic}
 \alias{knapsack_dynamic}
-\title{Dynamic programming function that solves Knapsack problem}
+\title{Computes the knapsack problem}
 \usage{
 knapsack_dynamic(x, W)
 }
@@ -15,7 +15,7 @@ knapsack_dynamic(x, W)
 The Value and the elements
 }
 \description{
-Dynamic programming function that solves Knapsack problem
+An approach to solve the knapsack problem using dynamic programming
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}

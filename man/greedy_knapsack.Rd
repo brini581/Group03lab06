@@ -2,7 +2,7 @@
 % Please edit documentation in R/GreedyFunction.R
 \name{greedy_knapsack}
 \alias{greedy_knapsack}
-\title{Greedy heuristic function that solves Knapsack problem}
+\title{Computes the knapsack problem}
 \usage{
 greedy_knapsack(x, W)
 }
@@ -15,7 +15,7 @@ greedy_knapsack(x, W)
 The Value and the elements
 }
 \description{
-Greedy heuristic function that solves Knapsack problem
+An approach to solve the knapsack problem using greedy heuristic
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}
