@@ -55,6 +55,8 @@ brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
 **Answer**: Using microbenchmark(), it can be seen that the time to execute the algorithm for 16 objects is  315.2675 ms.
 
 ## Dynamic approach to solve knapsack problem
+This approach divides a complex problem into sub-problems and save the solution of each problem into a matrix where rows represent the values and columns represent the weights. And then after,each of the solutions will be used to find the final solution of the complex problem.
+
 This function also returns the maximum value and the elements. 
 An example function call to this function is 
 ```{r, echo = TRUE, eval = FALSE}
@@ -69,7 +71,8 @@ knapsack_dynamic(x = knapsack_objects[1:8,], W = 3500)
 
 
 ## Greedy approach to solve knapsack problem
-This function also returns the maximum value and the elements. 
+This approach solves the problem by calculating the value to weight ratio and sort all the objects by its ratio.After ordering the objects, it selects objects from 1 up to n<sup>th</sup> object until the weight is exhausted.
+ 
 An example function call to this function is 
 ```{r, echo = TRUE, eval = FALSE}
 greedy_knapsack(x = knapsack_objects[1:800,], W = 3500)
