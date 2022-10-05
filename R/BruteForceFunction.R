@@ -1,9 +1,9 @@
 #' @title Computes the knapsack problem
-#' @description An approach to the knapsack problem using brute force
+#' @description An approach to solve the knapsack problem using brute force
 #' @param x A dataframe with 2 columns, w weights and v values of each item
 #' @param W Weight of the knapsack
 #'
-#' @return Returns the maximum value whose weight is lower than W
+#' @return Returns the maximum value whose weight is lower than W and the elements
 #' @export
 #'
 
