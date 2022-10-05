@@ -52,7 +52,7 @@ brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
 ```
 
 ### Question: How much time does it takes to run the algorithm for n = 16 objects?
-Answer: Using system.time(), it can be seen that the time to execute the algorithm for 16 objects is  69.53 ms.
+Answer: Using microbenching, it can be seen that the time to execute the algorithm for 16 objects is  315.2675 ms.
 
 ## Dynamic approach to solve knapsack problem
 This function also returns the maximum value and the elements. 
