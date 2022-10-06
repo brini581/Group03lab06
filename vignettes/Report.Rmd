@@ -82,4 +82,4 @@ greedy_knapsack(x = knapsack_objects[1:800,], W = 3500)
 ```
 
 ### Question: How much time does it takes to run the algorithm for n = 1000000 objects?
-**Answer**: Using microbenchmark(), it can be seen that the time to execute the algorithm for 1000000 objects is  69.53 ms.
+**Answer**: Using system.time(), it can be seen that the time to execute the algorithm for 1000000 objects is  2298.70 s.
