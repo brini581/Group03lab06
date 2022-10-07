@@ -4,12 +4,14 @@
 \alias{brute_force_knapsack}
 \title{Computes the knapsack problem}
 \usage{
-brute_force_knapsack(x, W)
+brute_force_knapsack(x, W, parr = FALSE)
 }
 \arguments{
 \item{x}{A dataframe with 2 columns, w weights and v values of each item}
 
 \item{W}{Weight of the knapsack}
+
+\item{parr}{Logical to determine if it is to be executed in parallel or not}
 }
 \value{
 Returns the maximum value whose weight is lower than W and the elements
