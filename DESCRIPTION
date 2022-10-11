@@ -1,10 +1,10 @@
 Package: Group03lab06
-Title: solve knapsack problem
+Title: Three approaches to solve knapsack problem
 Version: 1.0.0.0
 Authors@R: 
     c(person("Bright David", "NIYIBIZI", email = "brini581@student.liu.se", role = c("aut", "cre")),
     person("Anna Basil","Jose", email = "annjo768@student.liu.se", role = c("aut", "ctb")))
-Description: What the package does (one paragraph).
+Description: The package has three functions that solves knapsack problem.The three approaches are brute force,greedy heuristic and dynamic programming.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
